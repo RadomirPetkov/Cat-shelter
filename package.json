@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/RadomirPetkov/Cat-shelter/issues"
   },
-  "homepage": "https://github.com/RadomirPetkov/Cat-shelter#readme"
+  "homepage": "https://github.com/RadomirPetkov/Cat-shelter#readme",
+  "dependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
