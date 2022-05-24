@@ -1,0 +1,1 @@
+This project is for educational purposes and the files in this folder are not used only as a source.
