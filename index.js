@@ -1,8 +1,6 @@
 const http = require(`http`)
 const port = 3000
-const homeView = require(`./homeView`)
-const addCatView = require(`./addCatView`)
-const addBreedView = require(`./addBreedView`)
+const fs = require("fs/promises")
 const css = require(`./content/styles/site`)
 
 const server = http.createServer((req, res) => {
