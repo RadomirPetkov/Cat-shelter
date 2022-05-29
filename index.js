@@ -16,7 +16,7 @@ const server = http.createServer(async (req, res) => {
         })
         let css = await fs.readFile(`./content/styles/site.css`, `utf-8`)
         res.write(css)
-        res.end()
+       
     }
     else if (req.url == '/add-breed') {
         let addBreedView = await fs.readFile(`./views/addBreed.html`, `utf-8`)
@@ -36,5 +36,5 @@ const server = http.createServer(async (req, res) => {
         res.end()
     }
 
-
+    res.end()
 }).listen(port, () => console.log(`Server is listening on port 3000...`))
